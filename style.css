@@ -1,0 +1,103 @@
+body
+{
+  background: #cccccc;
+}
+
+.topMenu
+{
+  background-color: white;
+  margin-top: 1%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.bntCustomize
+{
+  /* background-color: white;
+  border-color: black;
+  color: black;
+    text-decoration: none;
+      display: inline-block;
+      cursor: pointer; */
+  /* padding: 15px 32px;
+  text-align: center;
+
+
+  font-size: 16px;
+  margin: 4px 2px;
+   */
+
+
+  /*
+
+
+  padding-right: 2.75rem;
+  padding-left: 2.75rem;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; */
+  margin-top: 2%;
+  background-color: white;
+  border: none;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 140%;
+  cursor: pointer;
+
+  padding-right: 2.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 2.75rem;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+}
+
+
+
+.containerMargin
+{
+  width: 98%;
+}
+
+.webDesignDesc
+{
+  color: #afafaf;
+  font-size: 80%;
+}
+
+.bodySite
+{
+  border-top-left-radius: 30px;
+  background-color: white;
+  margin-bottom: 1%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 580px;
+}
+
+.webContact
+{
+  color: white;
+  font-size: 140%;
+}
+
+.webContactSocial
+{
+  word-spacing: 30px;
+}
+
+.webContactEmail
+{
+  padding-left: 68px;
+}
