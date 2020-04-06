@@ -5,6 +5,9 @@ function display_random_image()
     }, {
         src: "portfolio/image_2.jpeg"
     }, {
+        src: "portfolio/image_3.jpeg"
+    }	
+	, {
         src: "http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg"
     }];
 
@@ -20,8 +23,8 @@ function display_random_image()
 
 
       //Resize proportionally
-      var maxWidth = 800; // Max width for the image
-      var maxHeight = 500;    // Max height for the image
+      var maxWidth = 600; // Max width for the image
+      var maxHeight = 400;    // Max height for the image
       var ratio = 0;  // Used for aspect ratio
 
       preBuffer[i] = new Image();
@@ -55,7 +58,7 @@ function display_random_image()
 var newImage = getRandomInt(0, preBuffer.length - 1);
 
 // remove the previous images
-var images = document.getElementsByTagName('img');
+var images = document.getElementById("mainContent").getElementsByTagName('img');
 var l = images.length;
 for (var p = 0; p < l; p++) {
     images[0].parentNode.removeChild(images[0]);
