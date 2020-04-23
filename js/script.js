@@ -1,9 +1,9 @@
 function display_random_image()
 {
    var theImages = [{
-        src: "../portfolio/image_1.jpeg"
+        src: "portfolio/image_1.jpeg"
     }, {
-        src: "../portfolio/image_2.jpeg"
+        src: "./portfolio/image_2.jpeg"
     }, {
         src: "../portfolio/image_3.jpeg"
     }
